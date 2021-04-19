@@ -6,6 +6,9 @@ Created on Mon Oct 26 16:49:52 2020
 @author: macbookpro
 """
 
+# Takes excel file with frames a rows. In the collumn 'Pred' 0 indicates informative, 1,2,3 are non informative categories. 
+# Creates progressbar for video. 
+
 from PIL import Image
 import pandas as pd
 
